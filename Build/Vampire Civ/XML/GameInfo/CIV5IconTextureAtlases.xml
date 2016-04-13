@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/23/2016 10:42:43 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CivSymbolsColorLegend256test.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CivSymbolsColorLegend128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>CivSymbolsColorLegend80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CivSymbolsColorLegend64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CivSymbolsColorLegend45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CIV_COLOR_ATLAS_LEGEND</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CivSymbolsColorLegend32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>  
+</GameData>

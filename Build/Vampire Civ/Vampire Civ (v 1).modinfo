@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f0d5ea0a-c7ab-4a2c-932f-4cfaf947dafe" version="1">
+  <Properties>
+    <Name>Vampire Civ</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds a vampire civ.</Teaser>
+    <Description>Adds a vampire civ.</Description>
+    <Authors>Sam Gebhard</Authors>
+    <SpecialThanks>Peter "Marsh" Feider &amp; Mike Anderson</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="E8B1B52D5D5916300B1691212AFF8A3F" import="1">Art/CivSymbolsColorLegend128.dds</File>
+    <File md5="4820FE7757B83F3FCCCB8FE649BE4C82" import="1">Art/CivSymbolsColorLegend256.dds</File>
+    <File md5="4820FE7757B83F3FCCCB8FE649BE4C82" import="1">Art/CivSymbolsColorLegend256test.dds</File>
+    <File md5="978CE0EA6217BF39C7D2E0BE867C3D1C" import="1">Art/CivSymbolsColorLegend32.dds</File>
+    <File md5="3F6034BE3ABEB290D1297376D0B5496E" import="1">Art/CivSymbolsColorLegend45.dds</File>
+    <File md5="0C922D5130D3ABD86082150178433CE1" import="1">Art/CivSymbolsColorLegend64.dds</File>
+    <File md5="5D7D7387AA4353E68E2C655DC2E366F6" import="1">Art/CivSymbolsColorLegend80.dds</File>
+    <File md5="7C91EE02BCCEE72CD638CA85A1DC405D" import="1">Art/DOM_Dracula.dds</File>
+    <File md5="F3D08271D25B5DE6D00A32428E0D17A8" import="1">Art/MapTransylvania.dds</File>
+    <File md5="B60F751D0BA6D43C2A1CE26B0D45BC85" import="0">XML/Civilizations/Civ_Vampires.xml</File>
+    <File md5="89D94F0E16FBCCCEDD46DF72BFD0E500" import="0">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="2B07724EEBDE9E7D35942C2D930592EB" import="0">XML/GameInfo/MeleeCapture.xml</File>
+    <File md5="BA5A55A00EA20B004EC1ED2FD47DE7E1" import="0">XML/Leaders/CIV5Leader_Dracula.xml</File>
+    <File md5="F9CF3A33A453AAF916CD5CB3BA821003" import="0">XML/Leaders/Dracula_Scene.xml</File>
+    <File md5="58632CB7B3616CE1AF1D4C317A6BB56A" import="0">XML/Trait/DraculaTrait.xml</File>
+    <File md5="75FB6755942F7286ABD1C5FF40481C76" import="0">XML/Units/Dracula.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/Civilizations/Civ_Vampires.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Dracula.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Trait/DraculaTrait.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/MeleeCapture.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Dracula.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Dracula_Scene.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
