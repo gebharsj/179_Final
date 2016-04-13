@@ -3,7 +3,7 @@
 <GameData>
 	<Units>
 		<Row>
-			<Class>UNITCLASS_DRACULA</Class>
+			<Class>UNITCLASS_VAMPIRE_HUNTER</Class>
 			<Type>UNIT_DRACULA</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 			<Combat>100</Combat>
@@ -52,6 +52,12 @@
 			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
 		</Row>
 	</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_DRACULA</UnitType>
+			<PromotionType>PROMOTION_CONVERT</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
 	<Unit_Flavors>
 		<Row>
 			<UnitType>UNIT_DRACULA</UnitType>
@@ -85,5 +91,90 @@
 		<Row Tag="TXT_KEY_UNIT_DRACULA_STRATEGY">
 			<Text>He can be used for nearly everything as he is so strong.</Text>
 		</Row>
-	</Language_en_US>  
+	</Language_en_US>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_VAMPIRE_HUNTER</Class>
+			<Type>UNIT_VAMPIRE_HUNTER</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Combat>100</Combat>
+			<Cost>250</Cost>
+			<Moves>4</Moves>
+			<HurryCostModifier>0</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_VAMPIRE_HUNTER</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_VAMPIRE_HUNTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_VAMPIRE_HUNTER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_VAMPIRE_HUNTER_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_LONGSWORDSMAN</UnitArtInfo>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Units>
+	<UnitClasses>
+		-<Row>
+			<Type>UNITCLASS_VAMPIRE_HUNTER</Type>
+			<Description>TXT_KEY_UNIT_VAMPIRE_HUNTER</Description>
+			<DefaultUnit>UNIT_VAMPIRE_HUNTER</DefaultUnit>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</UnitClasses>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTERA</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_VAMPIRE_HUNTER">
+			<Text>Dracula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_VAMPIRE_HUNTER_HELP">
+			<Text>An extremely strong vampire, Dracula is useful for pretty much everything. However, you can only have one of him at a time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_VAMPIRE_HUNTER">
+			<Text>Coming in a future update :)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_VAMPIRE_HUNTER_TEXT">
+			<Text>Coming in a future update :)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VAMPIRE_HUNTER_STRATEGY">
+			<Text>He can be used for nearly everything as he is so strong.</Text>
+		</Row>
+	</Language_en_US>
 </GameData>

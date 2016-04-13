@@ -25,7 +25,7 @@
   <Files>
     <File md5="E8B1B52D5D5916300B1691212AFF8A3F" import="1">Art/CivSymbolsColorLegend128.dds</File>
     <File md5="4820FE7757B83F3FCCCB8FE649BE4C82" import="1">Art/CivSymbolsColorLegend256.dds</File>
-    <File md5="4820FE7757B83F3FCCCB8FE649BE4C82" import="1">Art/CivSymbolsColorLegend256test.dds</File>
+    <File md5="D276932E661FA3120EC46443B2F27BEC" import="1">Art/CivSymbolsColorLegend256test.dds</File>
     <File md5="978CE0EA6217BF39C7D2E0BE867C3D1C" import="1">Art/CivSymbolsColorLegend32.dds</File>
     <File md5="3F6034BE3ABEB290D1297376D0B5496E" import="1">Art/CivSymbolsColorLegend45.dds</File>
     <File md5="0C922D5130D3ABD86082150178433CE1" import="1">Art/CivSymbolsColorLegend64.dds</File>
@@ -38,7 +38,7 @@
     <File md5="BA5A55A00EA20B004EC1ED2FD47DE7E1" import="0">XML/Leaders/CIV5Leader_Dracula.xml</File>
     <File md5="F9CF3A33A453AAF916CD5CB3BA821003" import="0">XML/Leaders/Dracula_Scene.xml</File>
     <File md5="58632CB7B3616CE1AF1D4C317A6BB56A" import="0">XML/Trait/DraculaTrait.xml</File>
-    <File md5="75FB6755942F7286ABD1C5FF40481C76" import="0">XML/Units/Dracula.xml</File>
+    <File md5="CAC71BCD8AF4205887460462211A29E7" import="0">XML/Units/Dracula.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
