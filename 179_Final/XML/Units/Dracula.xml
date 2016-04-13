@@ -27,7 +27,7 @@
 			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<PortraitIndex>3</PortraitIndex>
 		</Row>
 	</Units>
 	<UnitClasses>
@@ -114,11 +114,11 @@
 			<AdvancedStartCost>50</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_LONGSWORDSMAN</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_CROSSBOWMAN</UnitArtInfo>
 			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<PortraitIndex>4</PortraitIndex>
 		</Row>
 	</Units>
 	<UnitClasses>
@@ -162,10 +162,10 @@
 	</Unit_Flavors>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_UNIT_VAMPIRE_HUNTER">
-			<Text>Dracula</Text>
+			<Text>Vampire Hunter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNITS_VAMPIRE_HUNTER_HELP">
-			<Text>An extremely strong vampire, Dracula is useful for pretty much everything. However, you can only have one of him at a time.</Text>
+			<Text>An extremely strong hunter, vampire hunter is useful for pretty much everything. However, you can only have one of him at a time.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNITS_VAMPIRE_HUNTER">
 			<Text>Coming in a future update :)</Text>

@@ -61,7 +61,7 @@
 	<Civilization_UnitClassOverrides>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
-			<UnitClassType>UNITCLASS_DRACULA</UnitClassType>
+			<UnitClassType>UNITCLASS_VAMPIRE_HUNTER</UnitClassType>
 			<UnitType>UNIT_DRACULA</UnitType>
 		</Row>
 		<Row>
