@@ -66,8 +66,8 @@
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
-			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
+			<UnitType>UNIT_VAMPIRE</UnitType>
 		</Row>
 	</Civilization_UnitClassOverrides>
 	<Civilization_FreeBuildingClasses>
@@ -96,11 +96,6 @@
 			<TechType>TECH_AGRICULTURE</TechType>
 		</Row>
 	</Civilization_FreeTechs>	
-	<!-- Civilization_Start_Along_Ocean -->
-	<!-- Civilization_Start_Along_River -->
-	<!-- Civilization_Start_Region_Priority -->
-	<!-- Civilization_Start_Region_Avoid -->
-	<!-- Civilization_Start_Place_First_Along_Ocean -->
 	<Civilization_CityNames>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
@@ -163,7 +158,7 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_VAMPIRE_SHORT_DESC">
-			<Text>Vampiria</Text>
+			<Text>Transylvania</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_VAMPIRE_ADJECTIVE">

@@ -41,13 +41,14 @@
     <File md5="ADB95CC0554CFCC5CD00FB2DCEA4C99E" import="1">Art/IconAtlas64.dds</File>
     <File md5="6AE8BADEE58E8F5CAD3D69EDEECFAB05" import="1">Art/IconAtlas80.dds</File>
     <File md5="F3D08271D25B5DE6D00A32428E0D17A8" import="1">Art/MapTransylvania.dds</File>
-    <File md5="9A806B45ABD9D076E3472501FC969279" import="0">XML/Civilizations/Civ_Vampires.xml</File>
+    <File md5="E25720EC0150A36FC30369159FFF07C8" import="0">XML/Buildings/Buildings.xml</File>
+    <File md5="6DB8B3009A7ADF0F53D7636F510023DE" import="0">XML/Civilizations/Civ_Vampires.xml</File>
     <File md5="C3FFA2B125A94B98445F289FEECB57E8" import="0">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
-    <File md5="2B07724EEBDE9E7D35942C2D930592EB" import="0">XML/GameInfo/MeleeCapture.xml</File>
+    <File md5="242D5C3982387CBF3539B00974FDBA5E" import="0">XML/GameInfo/MeleeCapture.xml</File>
     <File md5="3CE7D963FD3CBAAC6E75485CAF1FF381" import="0">XML/Leaders/CIV5Leader_Dracula.xml</File>
     <File md5="F9CF3A33A453AAF916CD5CB3BA821003" import="0">XML/Leaders/Dracula_Scene.xml</File>
     <File md5="58632CB7B3616CE1AF1D4C317A6BB56A" import="0">XML/Trait/DraculaTrait.xml</File>
-    <File md5="C371B8405D384FE69235375072F2A802" import="0">XML/Units/Dracula.xml</File>
+    <File md5="30706A407EAB3D80DDDEF2C1996FE178" import="0">XML/Units/Dracula.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

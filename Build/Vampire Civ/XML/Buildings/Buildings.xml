@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/20/2016 12:06:13 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_DRACULAS_CASTLE</Type>
+			<DefaultBuilding>BUILDING_DRACULAS_CASTLE</DefaultBuilding>
+			<Description>TXT_KEY_DRACULAS_CASTLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_DRACULAS_CASTLE</Type>
+			<BuildingClass>BUILDINGCLASS_DRACULAS_CASTLE</BuildingClass>
+			<Cost>1200</Cost>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
+			<MaxStartEra>ERA_POSTMODERN</MaxStartEra>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<Help>TXT_KEY_DRACULAS_CASTLE_HELP</Help>
+			<Description>TXT_KEY_DRACULAS_CASTLE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DRACULAS_CASTLE_TEXT</Civilopedia>
+			<Quote></Quote>
+			<ArtDefineTag>CASTLE</ArtDefineTag>
+			<MaxStartEra></MaxStartEra>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<ConquestProb>100</ConquestProb>
+			<Defense>25</Defense>
+			<ExtraCityHitPoints>20</ExtraCityHitPoints>
+			<Water>false</Water>
+			<River>false</River>
+			<FreshWater>false</FreshWater>
+			<Mountain>true</Mountain>
+			<NearbyMountainRequired>true</NearbyMountainRequired>
+			<Hill>false</Hill>
+			<Flat>false</Flat>
+			<DisplayPosition>2</DisplayPosition>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<WonderSplashImage></WonderSplashImage>
+			<WonderSplashAnchor></WonderSplashAnchor>
+		</Row>
+	</Buildings>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DRACULAS_CASTLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_DRACULAS_CASTLE</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_DRACULAS_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DRACULAS_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DRACULAS_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DRACULAS_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_DRACULAS_CASTLE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DRACULAS_CASTLE">
+			<Text>Dracula' Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DRACULAS_CASTLE_HELP">
+			<Text>Gives the player defense and science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_DRACULAS_CASTLE_TEXT">
+			<Text>Gives the player defense and science.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

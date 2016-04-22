@@ -5,10 +5,10 @@
 		<Row>
 			<Class>UNITCLASS_VAMPIRE_HUNTER</Class>
 			<Type>UNIT_DRACULA</Type>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>100</Combat>
-			<Cost>250</Cost>
-			<Moves>4</Moves>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<Combat>50</Combat>
+			<Cost>175</Cost>
+			<Moves>3</Moves>
 			<HurryCostModifier>0</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -25,7 +25,7 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_LONGSWORDSMAN</UnitArtInfo>
 			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
@@ -96,10 +96,10 @@
 		<Row>
 			<Class>UNITCLASS_VAMPIRE_HUNTER</Class>
 			<Type>UNIT_VAMPIRE_HUNTER</Type>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>100</Combat>
-			<Cost>250</Cost>
-			<Moves>4</Moves>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+			<Combat>35</Combat>
+			<Cost>175</Cost>
+			<Moves>2</Moves>
 			<HurryCostModifier>0</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -116,7 +116,7 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CROSSBOWMAN</UnitArtInfo>
 			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
-			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -131,7 +131,7 @@
 	</UnitClasses>
 	<Unit_AITypes>
 		<Row>
-			<UnitType>UNIT_VAMPIRE_HUNTERA</UnitType>
+			<UnitType>UNIT_VAMPIRE_HUNTER</UnitType>
 			<UnitAIType>UNITAI_ATTACK</UnitAIType>
 		</Row>
 		<Row>
@@ -174,6 +174,106 @@
 			<Text>Coming in a future update :)</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_VAMPIRE_HUNTER_STRATEGY">
+			<Text>He can be used for nearly everything as he is so strong.</Text>
+		</Row>
+	</Language_en_US>
+	<Units>
+		<Row>
+			<Class>UNITCLASS_PARATROOPER</Class>
+			<Type>UNIT_VAMPIRE</Type>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Combat>35</Combat>
+			<Cost>150</Cost>
+			<Moves>3</Moves>
+			<HurryCostModifier>0</HurryCostModifier>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_PARADROP</DefaultUnitAI>
+			<IgnoreBuildingDefense>1</IgnoreBuildingDefense>
+			<Description>TXT_KEY_UNIT_VAMPIRE</Description>
+			<Civilopedia>TXT_KEY_CIV_UNITS_VAMPIRE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_VAMPIRE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNITS_VAMPIRE_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<AdvancedStartCost>50</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_PARADROOPER</UnitArtInfo>
+			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Units>
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_VAMPIRE</UnitType>
+			<SelectionSound>AS2D_SELECT_PARATROOPER</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_PARATROOPER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_VAMPIRE">
+			<Text>Vampire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_VAMPIRE_HELP">
+			<Text>An extremely strong hunter, vampire hunter is useful for pretty much everything. However, you can only have one of him at a time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_VAMPIRE">
+			<Text>Coming in a future update :)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_UNITS_VAMPIRE_TEXT">
+			<Text>Coming in a future update :)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VAMPIRE_STRATEGY">
 			<Text>He can be used for nearly everything as he is so strong.</Text>
 		</Row>
 	</Language_en_US>

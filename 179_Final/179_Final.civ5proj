@@ -76,6 +76,7 @@
     <Folder Include="XML\Civilizations" />
     <Folder Include="XML\GameInfo" />
     <Folder Include="XML\Leaders" />
+    <Folder Include="XML\Buildings" />
     <Folder Include="XML\Units" />
     <Folder Include="XML\Trait" />
   </ItemGroup>
@@ -151,6 +152,10 @@
     <Content Include="Art\MapTransylvania.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\Buildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\Civilizations\Civ_Vampires.xml">
       <SubType>Lua</SubType>

@@ -2,14 +2,13 @@
 <!-- Created by ModBuddy on 4/7/2016 1:02:46 PM -->
 <GameData>
 	<UnitPromotions>
-		<!-- PROMOTION_CONVERT -->
 		<Row>
 			<Type>PROMOTION_CONVERT</Type>
 			<Description>TXT_KEY_PROMOTION_CONVERT</Description>
 			<Help>TXT_KEY_PROMOTION_CONVERT_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<CONVERTDefeatedEnemy>true</CONVERTDefeatedEnemy>
+			<CaptureDefeatedEnemy>true</CaptureDefeatedEnemy>
 			<IconAtlas>KRIS_SWORDSMAN_PROMOTION_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>			
 			<PediaType>PEDIA_ATTRIBUTE</PediaType>
@@ -17,7 +16,6 @@
 		</Row>
 	</UnitPromotions>
 	<UnitPromotions_UnitCombats>
-		<!-- PROMOTION_CONVERT -->
 		<Row>
 			<PromotionType>PROMOTION_CONVERT</PromotionType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
