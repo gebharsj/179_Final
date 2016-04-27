@@ -179,7 +179,7 @@
 	</Language_en_US>
 	<Units>
 		<Row>
-			<Class>UNITCLASS_PARATROOPER</Class>
+			<Class>UNITCLASS_LANCER</Class>
 			<Type>UNIT_VAMPIRE</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
 			<Combat>35</Combat>

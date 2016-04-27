@@ -20,7 +20,7 @@
 			<DoFWillingness>5</DoFWillingness>
 			<Loyalty>0</Loyalty>
 			<Neediness>5</Neediness>
-			<Forgiveness>5</Forgiveness>
+			<Forgiveness>0</Forgiveness>
 			<Chattiness>5</Chattiness>
 			<Meanness>10</Meanness>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
@@ -47,27 +47,27 @@
 		<Row>
 			<LeaderType>LEADER_DRACULA</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>7</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_DRACULA</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>10</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_DRACULA</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>10</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_DRACULA</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>0</Bias>
 		</Row>
 		<Row>
 			<LeaderType>LEADER_DRACULA</LeaderType>
 			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
-			<Bias>5</Bias>
+			<Bias>0</Bias>
 		</Row>
 	</Leader_MajorCivApproachBiases>
 	<Leader_MinorCivApproachBiases>
