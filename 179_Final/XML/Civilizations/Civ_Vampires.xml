@@ -6,13 +6,13 @@
 			<Type>COLOR_PLAYER_VAMPIRE_ICON</Type>
 			<Red>0.000</Red>
 			<Green>0.000</Green>
-			<Blue>0.000</Blue>
+			<Blue>1.000</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_VAMPIRE_BACKGROUND</Type>
 			<Red>1.000</Red>
-			<Green>0.000</Green>
+			<Green>1.000</Green>
 			<Blue>0.000</Blue>
 			<Alpha>1.0</Alpha>
 		</Row>
@@ -99,15 +99,23 @@
 	<Civilization_CityNames>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
-			<CityName>TXT_KEY_CITY_NAME_TRANSYLVANIA</CityName>
+			<CityName>TXT_KEY_CITY_NAME_SIBIU</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
-			<CityName>TXT_KEY_CITY_NAME_VIENNE</CityName>
+			<CityName>TXT_KEY_CITY_NAME_CLUJ-NAPOCA</CityName>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
-			<CityName>TXT_KEY_CITY_NAME_TEST</CityName>
+			<CityName>TXT_KEY_CITY_NAME_BRAN</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_BRASOV</CityName>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_VAMPIRE</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_ALBA_IULIA</CityName>
 		</Row>
 	</Civilization_CityNames>	
 	<Civilization_SpyNames>
@@ -154,7 +162,7 @@
 	</Civilization_SpyNames>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_CIV_VAMPIRE_DESC">
-			<Text>Vampiric Empire</Text>
+			<Text>Transylvanian Empire</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_CIV_VAMPIRE_SHORT_DESC">
@@ -168,15 +176,21 @@
 		<Row Tag="TXT_KEY_CIV5_DAWN_VAMPIRE_TEXT">
 			<Text>Welcome, President Washington! You lead the industrious American civilization. Formed in the conflagration of revolution in the 18th century, within a hundred years the young nation became embroiled in a terrible Civil War that nearly tore the country apart. But it was just a few short years later, in the 20th century, that the United States reached the height of its power, emerging triumphant and mighty from the two terrible wars that destroyed so many other great nations.[NEWLINE][NEWLINE]The United States is a nation of immigrants, filled with optimism and determination. They lack only a leader to help them fulfill their promise. President Washington, can you lead the American people to greatness? Can you build a civilization that will stand the test of time?</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_TRANSYLVANIA">
-			<Text>Transylvania</Text>
+		<Row Tag="TXT_KEY_CITY_NAME_SIBIU">
+			<Text>Sibiu</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_VIENNE">
-			<Text>Vienne</Text>
+		<Row Tag="TXT_KEY_CITY_NAME_CLUJ-NAPOCA">
+			<Text>Cluj-Napoca</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CITY_NAME_TEST">
-			<Text>Test</Text>
-		</Row>			
+		<Row Tag="TXT_KEY_CITY_NAME_BRAN">
+			<Text>Bran</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRASOV">
+			<Text>Brasov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ALBA_IULIA">
+			<Text>Alba Iulia</Text>
+		</Row>
 		<Row Tag="TXT_KEY_CIV5_VAMPIRE_HEADING_1">
 			<Text>History</Text>
 		</Row>

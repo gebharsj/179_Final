@@ -13,15 +13,8 @@
 		<Row>
 			<Type>BUILDING_DRACULAS_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_DRACULAS_CASTLE</BuildingClass>
-			<Cost>1200</Cost>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<MaxStartEra>ERA_MODERN</MaxStartEra>
-			<MaxStartEra>ERA_POSTMODERN</MaxStartEra>
-			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>			
 			<Help>TXT_KEY_DRACULAS_CASTLE_HELP</Help>
 			<Description>TXT_KEY_DRACULAS_CASTLE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_DRACULAS_CASTLE_TEXT</Civilopedia>
@@ -32,10 +25,8 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
-			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
-			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
 			<ConquestProb>100</ConquestProb>
-			<Defense>25</Defense>
+			<Defense>2500</Defense>
 			<ExtraCityHitPoints>20</ExtraCityHitPoints>
 			<Water>false</Water>
 			<River>false</River>

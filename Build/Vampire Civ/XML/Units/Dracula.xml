@@ -202,9 +202,9 @@
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_PARADROOPER</UnitArtInfo>
 			<UnitFlagAtlas>CIV_COLOR_ATLAS_LEGEND</UnitFlagAtlas>
-			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagIconOffset>2</UnitFlagIconOffset>
 			<IconAtlas>CIV_COLOR_ATLAS_LEGEND</IconAtlas>
-			<PortraitIndex>2</PortraitIndex>
+			<PortraitIndex>6</PortraitIndex>
 		</Row>
 	</Units>
 	<Unit_AITypes>
